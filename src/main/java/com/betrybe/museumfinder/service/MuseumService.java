@@ -15,12 +15,12 @@ import org.springframework.stereotype.Service;
  *
  */
 @Service
-public class MuseumServixe implements MuseumServiceInterface {
+public class MuseumService implements MuseumServiceInterface {
 
   private MuseumFakeDatabase museumFakeDatabase;
 
   @Autowired
-  public MuseumServixe(MuseumFakeDatabase museumFakeDatabase) {
+  public MuseumService(MuseumFakeDatabase museumFakeDatabase) {
     this.museumFakeDatabase = museumFakeDatabase;
   }
 
