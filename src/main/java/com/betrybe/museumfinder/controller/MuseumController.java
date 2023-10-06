@@ -13,6 +13,7 @@ import org.springframework.core.annotation.AliasFor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -63,5 +64,18 @@ public class MuseumController {
     return ResponseEntity.status(HttpStatus.OK)
         .body(ModelDtoConverter
             .modelToDto(museumService.getClosestMuseum(coordinate, maxDistKm)));
+  }
+
+  /**
+   * cria rota get de busca de museu específico.
+   *
+   * @param id long.
+   * @return museu.
+   */
+  @GetMapping("/{id}")
+  public ResponseEntity<MuseumDto> getMuseumById(@PathVariable long id) {
+    return ResponseEntity.status(HttpStatus.OK)
+        .body(ModelDtoConverter
+            .modelToDto(museumService.getMuseum(id)));
   }
 }

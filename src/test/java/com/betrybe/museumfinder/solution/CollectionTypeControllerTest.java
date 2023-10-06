@@ -47,7 +47,6 @@ public class CollectionTypeControllerTest {
                 .content(objectToJson(collection)))
         .andExpect(status().isOk())
         .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-        .andExpect(status().isOk())
         .andExpect(jsonPath("$.count").value(collectionTypeCount.count()));
 
     Mockito.verify(collectionTypeService).countByCollectionTypes(any());
