@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h1>Project Pixels Art</h1>
+<p>Trata-se de um projeto avaliativo desenvolvido no módulo de Java do curso de Desenvolvimento Web da Trybe. O projeto envolveu o uso de Java, Maven, Docker e Spring. Nele foram manipulados os arquivos no diretório 'src/main' e 'src/test/' na pasta solution. Destacam-se como competências desenvolvidas: </p>
+<ol>
+  <li>Spring;</li>
+  <li>Java Web;</li>
+  <li>API REST com Spring;</li>
+  <li>Exceções em Java;</li>
+  <li>Container com Java;</li>
+  <li>Testes com Junit;</li>
+</ol>
+<p>A aplicação consiste num facilitador de busca por museus baseado em sua localização </p>
