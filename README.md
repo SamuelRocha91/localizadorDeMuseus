@@ -1,4 +1,4 @@
-<h1>Project Pixels Art</h1>
+<h1>Projeto Localizador de Museus</h1>
 <p>Trata-se de um projeto avaliativo desenvolvido no módulo de Java do curso de Desenvolvimento Web da Trybe. O projeto envolveu o uso de Java, Maven, Docker e Spring. Nele foram manipulados os arquivos no diretório 'src/main' e 'src/test/' na pasta solution. Destacam-se como competências desenvolvidas: </p>
 <ol>
   <li>Spring;</li>
