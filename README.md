@@ -21,6 +21,7 @@
 
 <details>
   <summary><h2>Funcionalidades</h2></summary>
+
   - **Cadastro de Museus**: Permite adicionar novos museus ao sistema.
   - **Localização de Museus Próximos**: Os usuários podem encontrar museus mais próximos com base em suas coordenadas geográficas.
   - **Consulta de Museus Específicos**: Possibilita a busca de museus pelo seu ID.
@@ -41,6 +42,7 @@
 
 <details>
   <summary><h2>Tecnologias Utilizadas</h2></summary>
+
   - **Java**: Linguagem de programação principal.
   - **Spring Boot**: Framework para construção de aplicações web e APIs REST.
   - **Maven**: Ferramenta de gerenciamento de projetos Java.
@@ -50,6 +52,7 @@
 
 <details>
   <summary><h2>Outros Projetos</h2></summary>
+
   - 🗳️ [Sistema de Votação](https://github.com/SamuelRocha91/sistemaDeVotacao)
   - 📃 [Regras de Progressão](https://github.com/SamuelRocha91/project_rule_of_progression)
   - 🌱 [Agrix](https://github.com/SamuelRocha91/Agrix)
@@ -57,6 +60,7 @@
 
 <details>
   <summary><h2>Como Executar</h2></summary>
+  
   1. Clone este repositório em sua máquina local:
      ```sh
      git clone https://github.com/SamuelRocha91/localizadorDeMuseus.git

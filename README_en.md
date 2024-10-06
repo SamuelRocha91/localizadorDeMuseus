@@ -21,6 +21,7 @@
 
 <details>
   <summary><h2>Features</h2></summary>
+
   - **Museum Registration**: Allows the addition of new museums to the system.
   - **Location of Nearby Museums**: Users can find the nearest museums based on their geographic coordinates.
   - **Query Specific Museums**: Enables the search for museums by their ID.
@@ -41,6 +42,7 @@
 
 <details>
   <summary><h2>Technologies Used</h2></summary>
+
   - **Java**: Main programming language.
   - **Spring Boot**: Framework for building web applications and REST APIs.
   - **Maven**: Tool for managing Java projects.
@@ -50,6 +52,7 @@
 
 <details>
   <summary><h2>Other Projects</h2></summary>
+
   - 🗳️ [Voting System](https://github.com/SamuelRocha91/sistemaDeVotacao/blob/main/README_en.md)
   - 📃 [Progression Rules](https://github.com/SamuelRocha91/project_rule_of_progression/blob/main/README_en.md)
   - 🌱 [Agrix](https://github.com/SamuelRocha91/Agrix/blob/main/README_en.md)
@@ -57,6 +60,7 @@
 
 <details>
   <summary><h2>How to Run</h2></summary>
+  
   1. Clone this repository to your local machine:
      ```sh
      git clone https://github.com/SamuelRocha91/localizadorDeMuseus.git

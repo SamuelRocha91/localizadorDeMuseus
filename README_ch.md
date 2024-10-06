@@ -21,6 +21,7 @@
 
 <details>
   <summary><h2>功能</h2></summary>
+
   - **博物馆注册**: 允许向系统添加新的博物馆。
   - **查找附近博物馆**: 用户可以根据其地理坐标找到最近的博物馆。
   - **查询特定博物馆**: 允许按ID搜索博物馆。
@@ -41,6 +42,7 @@
 
 <details>
   <summary><h2>使用的技术</h2></summary>
+
   - **Java**: 主要编程语言。
   - **Spring Boot**: 用于构建Web应用和REST API的框架。
   - **Maven**: Java项目管理工具。
@@ -50,6 +52,7 @@
 
 <details>
   <summary><h2>其他项目</h2></summary>
+
   - 🗳️ [投票系统](https://github.com/SamuelRocha91/sistemaDeVotacao/blob/main/README_ch.md)
   - 📃 [进阶规则](https://github.com/SamuelRocha91/project_rule_of_progression/blob/main/README_ch.md)
   - 🌱 [Agrix](https://github.com/SamuelRocha91/Agrix/blob/main/README_ch.md)
@@ -57,6 +60,7 @@
 
 <details>
   <summary><h2>如何运行</h2></summary>
+  
   1. 将此仓库克隆到您的本地计算机：
      ```sh
      git clone https://github.com/SamuelRocha91/localizadorDeMuseus.git
